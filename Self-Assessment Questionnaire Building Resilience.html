@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Assessment Questionnaire: Building Resilience</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .chapter {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Self-Assessment Questionnaire: Building Resilience</h1>
+    <p>As a follow-up to the ‘Introduction to Building resilience’ session on 20 May and in preparation of the follow-up session on 18 June (under the Avertim’Her brand), you can here reflect on and assess your resilience mindset across key dimensions that are critical in fast-paced, cognitively demanding environments like consulting. The questionnaire is inspired by the BetterUp Lab research.</p>
+    <p>To do so, rate yourself on a scale from 1 (Strongly Disagree) to 5 (Strongly Agree) for each statement. Be Honest-this is for your own growth.</p>
+    <label for="firstName">Name:</label>
+    <input type="text" id="firstName" name="firstName" placeholder="What is your name">
+
+    <div class="chapter">Bounce - Recovery from stress</div>
+    <p><i>Your ability to regain baseline functioning after adversity or high stress.</i></p>
+    <div class="question">
+        <label id="bounce_1a_label" for="bounce_1a_1">1a: I recover quickly after setbacks at work.</label><br>
+        <input type="radio" name="bounce_1a" id="bounce_1a_1" value="1" aria-labelledby="bounce_1a_label"> 1
+        <input type="radio" name="bounce_1a" id="bounce_1a_2" value="2" aria-labelledby="bounce_1a_label"> 2
+        <input type="radio" name="bounce_1a" id="bounce_1a_3" value="3" aria-labelledby="bounce_1a_label"> 3
+        <input type="radio" name="bounce_1a" id="bounce_1a_4" value="4" aria-labelledby="bounce_1a_label"> 4
+        <input type="radio" name="bounce_1a" id="bounce_1a_5" value="5" aria-labelledby="bounce_1a_label"> 5
+    </div>
+    <div class="question">
+        <label id="bounce_1b_label" for="bounce_1b_1">1b: When things go wrong, I stay calm and focused.</label><br>
+        <input type="radio" name="bounce_1b" id="bounce_1b_1" value="1" aria-labelledby="bounce_1b_label"> 1
+        <input type="radio" name="bounce_1b" id="bounce_1b_2" value="2" aria-labelledby="bounce_1b_label"> 2
+        <input type="radio" name="bounce_1b" id="bounce_1b_3" value="3" aria-labelledby="bounce_1b_label"> 3
+        <input type="radio" name="bounce_1b" id="bounce_1b_4" value="4" aria-labelledby="bounce_1b_label"> 4
+        <input type="radio" name="bounce_1b" id="bounce_1b_5" value="5" aria-labelledby="bounce_1b_label"> 5
+    </div>
+    <div class="question">
+        <label id="bounce_1c_label" for="bounce_1c_1">1c: I have effective strategies to manage stress (e.g., exercise, mindfulness, support networks).</label><br>
+        <input type="radio" name="bounce_1c" id="bounce_1c_1" value="1" aria-labelledby="bounce_1c_label"> 1
+        <input type="radio" name="bounce_1c" id="bounce_1c_2" value="2" aria-labelledby="bounce_1c_label"> 2
+        <input type="radio" name="bounce_1c" id="bounce_1c_3" value="3" aria-labelledby="bounce_1c_label"> 3
+        <input type="radio" name="bounce_1c" id="bounce_1c_4" value="4" aria-labelledby="bounce_1c_label"> 4
+        <input type="radio" name="bounce_1c" id="bounce_1c_5" value="5" aria-labelledby="bounce_1c_label"> 5
+    </div>
+
+    <div class="chapter">Grow - Learning from Adversity</div>
+    <p><i>Your ability to learn and adapt positively through challenges</i></p>
+    <div class="question">
+        <label id="grow_2a_label" for="grow_2a_1">2a: I reflect on difficult experiences to identify lessons learned.</label><br>
+        <input type="radio" name="grow_2a" id="grow_2a_1" value="1" aria-labelledby="grow_2a_label"> 1
+        <input type="radio" name="grow_2a" id="grow_2a_2" value="2" aria-labelledby="grow_2a_label"> 2
+        <input type="radio" name="grow_2a" id="grow_2a_3" value="3" aria-labelledby="grow_2a_label"> 3
+        <input type="radio" name="grow_2a" id="grow_2a_4" value="4" aria-labelledby="grow_2a_label"> 4
+        <input type="radio" name="grow_2a" id="grow_2a_5" value="5" aria-labelledby="grow_2a_label"> 5
+    </div>
+    <div class="question">
+        <label id="grow_2b_label" for="grow_2b_1">2b: Challenges push me to develop new skills or insights.</label><br>
+        <input type="radio" name="grow_2b" id="grow_2b_1" value="1" aria-labelledby="grow_2b_label"> 1
+        <input type="radio" name="grow_2b" id="grow_2b_2" value="2" aria-labelledby="grow_2b_label"> 2
+        <input type="radio" name="grow_2b" id="grow_2b_3" value="3" aria-labelledby="grow_2b_label"> 3
+        <input type="radio" name="grow_2b" id="grow_2b_4" value="4" aria-labelledby="grow_2b_label"> 4
+        <input type="radio" name="grow_2b" id="grow_2b_5" value="5" aria-labelledby="grow_2b_label"> 5
+    </div>
+    <div class="question">
+        <label id="grow_2c_label" for="grow_2c_1">2c: I believe failure can be a stepping stone to success.</label><br>
+        <input type="radio" name="grow_2c" id="grow_2c_1" value="1" aria-labelledby="grow_2c_label"> 1
+        <input type="radio" name="grow_2c" id="grow_2c_2" value="2" aria-labelledby="grow_2c_label"> 2
+        <input type="radio" name="grow_2c" id="grow_2c_3" value="3" aria-labelledby="grow_2c_label"> 3
+        <input type="radio" name="grow_2c" id="grow_2c_4" value="4" aria-labelledby="grow_2c_label"> 4
+        <input type="radio" name="grow_2c" id="grow_2c_5" value="5" aria-labelledby="grow_2c_label"> 5
+    </div>
+
+    <div class="chapter">Flow - Optimal Performance under pressure</div>
+    <p><i>Your ability to enter a focused, productive mental state during high demand</i></p>
+    <div class="question">
+        <label id="flow_3a_label" for="flow_3a_1">3a: I can get “in the zone” and stay deeply focused during demanding work</label><br>
+        <input type="radio" name="flow_3a" id="flow_3a_1" value="1" aria-labelledby="flow_3a_label"> 1
+        <input type="radio" name="flow_3a" id="flow_3a_2" value="2" aria-labelledby="flow_3a_label"> 2
+        <input type="radio" name="flow_3a" id="flow_3a_3" value="3" aria-labelledby="flow_3a_label"> 3
+        <input type="radio" name="flow_3a" id="flow_3a_4" value="4" aria-labelledby="flow_3a_label"> 4
+        <input type="radio" name="flow_3a" id="flow_3a_5" value="5" aria-labelledby="flow_3a_label"> 5
+    </div>
+    <div class="question">
+        <label id="flow_3b_label" for="flow_3b_1">3b: Time seems to pass quickly when I’m immersed in complex problem-solving</label><br>
+        <input type="radio" name="flow_3b" id="flow_3b_1" value="1" aria-labelledby="flow_3b_label"> 1
+        <input type="radio" name="flow_3b" id="flow_3b_2" value="2" aria-labelledby="flow_3b_label"> 2
+        <input type="radio" name="flow_3b" id="flow_3b_3" value="3" aria-labelledby="flow_3b_label"> 3
+        <input type="radio" name="flow_3b" id="flow_3b_4" value="4" aria-labelledby="flow_3b_label"> 4
+        <input type="radio" name="flow_3b" id="flow_3b_5" value="5" aria-labelledby="flow_3b_label"> 5
+    </div>
+    <div class="question">
+        <label id="flow_3c_label" for="flow_3c_1">3c: I use my strengths regularly at work, which energizes me</label><br>
+        <input type="radio" name="flow_3c" id="flow_3c_1" value="1" aria-labelledby="flow_3c_label"> 1
+        <input type="radio" name="flow_3c" id="flow_3c_2" value="2" aria-labelledby="flow_3c_label"> 2
+        <input type="radio" name="flow_3c" id="flow_3c_3" value="3" aria-labelledby="flow_3c_label"> 3
+        <input type="radio" name="flow_3c" id="flow_3c_4" value="4" aria-labelledby="flow_3c_label"> 4
+        <input type="radio" name="flow_3c" id="flow_3c_5" value="5" aria-labelledby="flow_3c_label"> 5
+    </div>
+
+    <div class="chapter">Connect - Social Resilience</div>
+    <p><i>Your ability to build strong relationships and rely on others during stress</i></p>
+    <div class="question">
+        <label id="connect_4a_label" for="connect_4a_1">4a: I feel supported by colleagues and/or mentors.</label><br>
+        <input type="radio" name="connect_4a" id="connect_4a_1" value="1" aria-labelledby="connect_4a_label"> 1
+        <input type="radio" name="connect_4a" id="connect_4a_2" value="2" aria-labelledby="connect_4a_label"> 2
+        <input type="radio" name="connect_4a" id="connect_4a_3" value="3" aria-labelledby="connect_4a_label"> 3
+        <input type="radio" name="connect_4a" id="connect_4a_4" value="4" aria-labelledby="connect_4a_label"> 4
+        <input type="radio" name="connect_4a" id="connect_4a_5" value="5" aria-labelledby="connect_4a_label"> 5
+    </div>
+    <div class="question">
+        <label id="connect_4b_label" for="connect_4b_1">4b: I know who I can turn to when I feel overwhelmed.</label><br>
+        <input type="radio" name="connect_4b" id="connect_4b_1" value="1" aria-labelledby="connect_4b_label"> 1
+        <input type="radio" name="connect_4b" id="connect_4b_2" value="2" aria-labelledby="connect_4b_label"> 2
+        <input type="radio" name="connect_4b" id="connect_4b_3" value="3" aria-labelledby="connect_4b_label"> 3
+        <input type="radio" name="connect_4b" id="connect_4b_4" value="4" aria-labelledby="connect_4b_label"> 4
+        <input type="radio" name="connect_4b" id="connect_4b_5" value="5" aria-labelledby="connect_4b_label"> 5
+    </div>
+    <div class="question">
+        <label id="connect_4c_label" for="connect_4c_1">4c: I actively maintain relationships that energize and ground me.</label><br>
+        <input type="radio" name="connect_4c" id="connect_4c_1" value="1" aria-labelledby="connect_4c_label"> 1
+        <input type="radio" name="connect_4c" id="connect_4c_2" value="2" aria-labelledby="connect_4c_label"> 2
+        <input type="radio" name="connect_4c" id="connect_4c_3" value="3" aria-labelledby="connect_4c_label"> 3
+        <input type="radio" name="connect_4c" id="connect_4c_4" value="4" aria-labelledby="connect_4c_label"> 4
+        <input type="radio" name="connect_4c" id="connect_4c_5" value="5" aria-labelledby="connect_4c_label"> 5
+    </div>
+
+    <div class="chapter">Future-Mindedness – Positive Outlook and Purpose</div>
+    <p><i>Your ability to stay motivated by a clear sense of purpose and hope</i></p>
+    <div class="question">
+        <label id="future_5a_label" for="future_5a_1">5a: I believe my work contributes to something meaningful.</label><br>
+        <input type="radio" name="future_5a" id="future_5a_1" value="1" aria-labelledby="future_5a_label"> 1
+        <input type="radio" name="future_5a" id="future_5a_2" value="2" aria-labelledby="future_5a_label"> 2
+        <input type="radio" name="future_5a" id="future_5a_3" value="3" aria-labelledby="future_5a_label"> 3
+        <input type="radio" name="future_5a" id="future_5a_4" value="4" aria-labelledby="future_5a_label"> 4
+        <input type="radio" name="future_5a" id="future_5a_5" value="5" aria-labelledby="future_5a_label"> 5
+    </div>
+    <div class="question">
+        <label id="future_5b_label" for="future_5b_1">5b: I stay hopeful even when current results are disappointing.</label><br>
+        <input type="radio" name="future_5b" id="future_5b_1" value="1" aria-labelledby="future_5b_label"> 1
+        <input type="radio" name="future_5b" id="future_5b_2" value="2" aria-labelledby="future_5b_label"> 2
+        <input type="radio" name="future_5b" id="future_5b_3" value="3" aria-labelledby="future_5b_label"> 3
+        <input type="radio" name="future_5b" id="future_5b_4" value="4" aria-labelledby="future_5b_label"> 4
+        <input type="radio" name="future_5b" id="future_5b_5" value="5" aria-labelledby="future_5b_label"> 5
+    </div>
+    <div class="question">
+        <label id="future_5c_label" for="future_5c_1">5c: I have a clear sense of personal and professional purpose.</label><br>
+        <input type="radio" name="future_5c" id="future_5c_1" value="1" aria-labelledby="future_5c_label"> 1
+        <input type="radio" name="future_5c" id="future_5c_2" value="2" aria-labelledby="future_5c_label"> 2
+        <input type="radio" name="future_5c" id="future_5c_3" value="3" aria-labelledby="future_5c_label"> 3
+        <input type="radio" name="future_5c" id="future_5c_4" value="4" aria-labelledby="future_5c_label"> 4
+        <input type="radio" name="future_5c" id="future_5c_5" value="5" aria-labelledby="future_5c_label"> 5
+    </div>
+
+    <button onclick="calculateResults()">Submit</button>
+
+    <div id="results" class="hidden">
+        <div class="result" id="bounce_result"></div>
+        <div class="result" id="grow_result"></div>
+        <div class="result" id="flow_result"></div>
+        <div class="result" id="connect_result"></div>
+        <div class="result" id="future_result"></div>
+        <div class="result" id="total_result"></div>
+        <button onclick="generatePDF()">Generate PDF</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script>
+        function calculateResults() {
+            const results = {
+                bounce: {},
+                grow: {},
+                flow: {},
+                connect: {},
+                future: {}
+            };
+
+            function getRadioValue(name) {
+                const element = document.querySelector(`input[name="${name}"]:checked`);
+                return element ? parseInt(element.value) : 0; // Or some other default, like null
+            }
+
+            results.bounce['1a'] = getRadioValue('bounce_1a');
+            results.bounce['1b'] = getRadioValue('bounce_1b');
+            results.bounce['1c'] = getRadioValue('bounce_1c');
+
+            results.grow['2a'] = getRadioValue('grow_2a');
+            results.grow['2b'] = getRadioValue('grow_2b');
+            results.grow['2c'] = getRadioValue('grow_2c');
+
+            results.flow['3a'] = getRadioValue('flow_3a');
+            results.flow['3b'] = getRadioValue('flow_3b');
+            results.flow['3c'] = getRadioValue('flow_3c');
+
+            results.connect['4a'] = getRadioValue('connect_4a');
+            results.connect['4b'] = getRadioValue('connect_4b');
+            results.connect['4c'] = getRadioValue('connect_4c');
+
+            results.future['5a'] = getRadioValue('future_5a');
+            results.future['5b'] = getRadioValue('future_5b');
+            results.future['5c'] = getRadioValue('future_5c');
+
+            results.bounce.total = results.bounce['1a'] + results.bounce['1b'] + results.bounce['1c'];
+            results.grow.total = results.grow['2a'] + results.grow['2b'] + results.grow['2c'];
+            results.flow.total = results.flow['3a'] + results.flow['3b'] + results.flow['3c'];
+            results.connect.total = results.connect['4a'] + results.connect['4b'] + results.connect['4c'];
+            results.future.total = results.future['5a'] + results.future['5b'] + results.future['5c'];
+            results.total = results.bounce.total + results.grow.total + results.flow.total + results.connect.total + results.future.total;
+
+            document.getElementById('bounce_result').innerText = `Bounce - Recovery from stress: ${results.bounce.total} /15`;
+            document.getElementById('grow_result').innerText = `Grow - Learning from Adversity: ${results.grow.total} /15`;
+            document.getElementById('flow_result').innerText = `Flow - Optimal Performance under pressure: ${results.flow.total} /15`;
+            document.getElementById('connect_result').innerText = `Connect - Social Resilience: ${results.connect.total} /15`;
+            document.getElementById('future_result').innerText = `Future-Mindedness – Positive Outlook and Purpose: ${results.future.total} /15`;
+            document.getElementById('total_result').innerText = `Total Resilience Score: ${results.total} /75`;
+
+            document.getElementById('results').classList.remove('hidden');
+        }
+
+        function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            var firstName = document.getElementById('firstName').value;
+            const bounceResult = document.getElementById('bounce_result').innerText;
+            const growResult = document.getElementById('grow_result').innerText;
+            const flowResult = document.getElementById('flow_result').innerText;
+            const connectResult = document.getElementById('connect_result').innerText;
+            const futureResult = document.getElementById('future_result').innerText;
+            const totalScoreText = document.getElementById('total_result').innerText;
+            const totalScore = parseInt(totalScoreText.match(/\d+/)[0]);
+            let message = "";
+               if (totalScore >= 60 && totalScore <= 75) {
+                   message = "High resilience - You likely thrive under pressure and grow through challenges. Maintain your habits and support others.";
+
+               } else if (totalScore >= 45 && totalScore <= 59) {
+                   message = "Moderate Resilience - You are doing well but could benefit from targeted growth in one or two areas.";
+
+               } else if (totalScore >= 30 && totalScore <= 44) {
+                   message = "Developing resilience - Some strengths are present, but there is room for growth. Focus on building consistent habits and supports.";
+
+               } else if (totalScore < 30) {
+                   message = "At risk - Consider seeking mentorship, coaching, or structured training to boost your resilience skills.";
+
+               }
+
+               const splitText = doc.splitTextToSize("Interpretation: " + message,230);
+
+
+            doc.setFont("Arial", "bold");
+            doc.setFontSize(16);
+            doc.text("Building Resilience: Self Assessment Results of " + firstName, 10, 10);
+
+            doc.setFont("Arial", "normal");
+            doc.setFontSize(14);
+            doc.text(bounceResult, 30, 20);
+            doc.text(growResult, 30, 30);
+            doc.text(flowResult, 30, 40);
+            doc.text(connectResult, 30, 50);
+            doc.text(futureResult, 30, 60);
+
+            doc.setFont("Arial", "bold");
+            doc.setFontSize(14);
+            doc.text(totalScoreText, 10, 80);
+
+            doc.setFont("Arial","italic");
+            doc.setFontSize(14);
+            doc.text(splitText, 10, 90);
+
+            doc.save("Self-Assessment Questionnaire: Building Resilience_results.pdf"); // Corrected typo
+        }
+    </script>
+</body>
+</html>
